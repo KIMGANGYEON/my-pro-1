@@ -131,7 +131,7 @@ function Home() {
         </MyWork>
         <MyStory>
           <h1>코딩을 시작한 이유</h1>
-          <p>dkdkdkdddddddsssk</p>
+          <p>dkdkdkdddddddsasdfasdfasdfssk</p>
         </MyStory>
         <Link to="/projectshow">
           <NextBtn>포토폴리오 보기</NextBtn>
