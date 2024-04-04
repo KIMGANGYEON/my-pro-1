@@ -23,9 +23,7 @@ const ProjectImgBox = styled.div<ProjectImgBox>`
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%) perspective(1000px)
-    rotateX(${(props) => props.rotateX}deg)
-    rotateY(${(props) => props.rotateY}deg);
+  transform: translate(-50%, -50%) perspective(3000px);
   transform-style: preserve-3d;
   will-change: transform;
 `;
@@ -51,7 +49,7 @@ function ProjectShow() {
     const standardX = window.innerWidth / 2 - pageX;
     const standardY = window.innerHeight / 2 - pageY;
 
-    const newRotateX = standardX / 40;
+    const newRotateX = standardX / 20;
     const newRotateY = standardY / 20;
 
     setRotateX(newRotateY);
