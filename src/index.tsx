@@ -3,9 +3,10 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import { createGlobalStyle } from "styled-components";
 import { RecoilRoot } from "recoil";
+import "./font.css";
 
 const GlobalStyle = createGlobalStyle`
-
+ @import url("https://fonts.googleapis.com/css2?family=Caveat&family=Shadows+Into+Light&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -57,6 +58,7 @@ table {
   box-sizing: border-box;
 }
 body {
+  scroll-behavior: smooth;
   &::-webkit-scrollbar {
     width: 5px;
   }
