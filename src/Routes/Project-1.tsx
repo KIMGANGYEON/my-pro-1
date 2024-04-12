@@ -6,6 +6,22 @@ import img from "../IMG/project-1/show-1.jpeg";
 import img1 from "../IMG/project-1/img-1.jpeg";
 import img2 from "../IMG/project-1/img-2.jpeg";
 import img3 from "../IMG/project-1/img-3.jpeg";
+import img4 from "../IMG/project-1/img-4.jpeg";
+import img5 from "../IMG/project-1/img-5.jpeg";
+import img6 from "../IMG/project-1/img-6.jpeg";
+import img7 from "../IMG/project-1/img-7.jpeg";
+import img8 from "../IMG/project-1/img-8.jpeg";
+import img9 from "../IMG/project-1/img-9.jpeg";
+import img10 from "../IMG/project-1/img-10.jpeg";
+import img11 from "../IMG/project-1/img-11.jpeg";
+import img12 from "../IMG/project-1/img-12.jpeg";
+import img13 from "../IMG/project-1/img-13.jpeg";
+import img14 from "../IMG/project-1/img-14.jpeg";
+import img15 from "../IMG/project-1/img-15.jpeg";
+import img16 from "../IMG/project-1/img-16.jpeg";
+import img17 from "../IMG/project-1/img-17.jpeg";
+import img29 from "../IMG/project-1/img-29.jpeg";
+import img30 from "../IMG/project-1/img-30.jpeg";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -77,78 +93,7 @@ const StartBox = styled.div`
       }
     }
   }
-  .section-1 {
-    .section-1__img {
-      img {
-        object-fit: cover;
-        width: 100vw;
-        height: 75vh;
-      }
-    }
-    .section-1__text {
-      padding: 1.9rem;
-      margin: 12.5rem 0;
-      display: flex;
-      justify-content: space-between;
-      h2 {
-        font-size: 2.1vw;
-      }
-      p {
-        width: 62%;
-        font-size: 3.5vw;
-      }
-    }
-    .section-1__img__box {
-      padding: 1.9rem;
-      position: relative;
-      margin-bottom: 15rem;
-      .img-1-box {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        height: 50%;
-        gap: 5px;
-        img {
-          height: 100%;
-          width: 100%;
-        }
-      }
-      .img-2-box {
-        position: absolute;
-        top: 0;
-        right: 1.9rem;
-        width: 20%;
-        height: 20%;
-        img {
-          width: 100%;
-        }
-      }
-      footer {
-        position: absolute;
-        font-size: 1.65vw;
-        right: 1.25rem;
-        bottom: 4rem;
-        width: 30%;
-      }
-    }
-  }
-  .section-2 {
-    padding: 1.9rem;
-    padding-top: 9.4rem;
-    background-color: #444;
-    height: 100%;
-    .section-2__item {
-      position: relative;
-      h1 {
-        text-align: center;
-        font-size: 10vw;
-      }
-    }
-  }
-  .section-3 {
-    height: 100vh;
-  }
 `;
-const TopBox = styled.div``;
 
 function Project01() {
   const [videoEnd, setVideoEnd] = useState(true);
@@ -211,11 +156,11 @@ function Project01() {
             </div>
             <div className="section-1__img__box">
               <div className="img-1-box">
-                <img src={img1} alt="" />
-                <img src={img2} alt="" />
+                <img src={img1} alt="img1" />
+                <img src={img2} alt="img2" />
               </div>
               <div className="img-2-box">
-                <img src={img3} alt="" />
+                <img src={img3} alt="img3" />
               </div>
               <footer>
                 Modernity is not a rejection of tradition but rather a
@@ -226,13 +171,65 @@ function Project01() {
             </div>
           </div>
           <div className="section-2">
-            <div className="section-2__item">
+            <div className="section-2__text">
               <h1>Simplicity is the ultimate sophistication</h1>
+            </div>
+            <div className="section2__img">
+              <div className="section2__imgbox1">
+                <img src={img4} alt="img4" />
+                <img src={img5} alt="img5" />
+              </div>
+              <div className="flex-box-1">
+                <div className="section2__imgbox2">
+                  <img src={img6} alt="img6" />
+                  <img src={img7} alt="img7" />
+                </div>
+              </div>
+              <div className="section2__imgbox3">
+                <img src={img8} alt="img6" />
+                <img src={img9} alt="img7" />
+              </div>
+              <div className="flex-box-2">
+                <div className="section2__imgbox4">
+                  <img src={img10} alt="img6" />
+                  <img src={img11} alt="img7" />
+                </div>
+              </div>
+              <div className="section2__imgbox5">
+                <img src={img12} alt="img6" />
+                <img src={img13} alt="img7" />
+              </div>
             </div>
           </div>
           <div className="section-3">
-            <div>
-              <h1>Simplicity is the ultimate sophistication.</h1>
+            <div className="section-3-imgbox">
+              <img src={img29} alt="img28" />
+              <img src={img30} alt="img28" />
+              <h1>
+                True style transcends mere fashion; it is a profound
+                understanding of one's identity and an authentic expression of
+                self, radiating confidence and individuality.
+              </h1>
+            </div>
+          </div>
+          <div className="section-4">
+            <div className="slide-box">
+              <div className="slide-box-1">
+                <div className="text">
+                  <h1>Look Book 1</h1>
+                </div>
+                <div className="img">
+                  <img src={img14} alt="img14" />
+                </div>
+              </div>
+              <div className="slide-box-2">
+                <div className="text">
+                  <h1>Look Book 2</h1>
+                </div>
+                <div className="img">
+                  <img src={img15} alt="img15" />
+                </div>
+              </div>
             </div>
           </div>
         </StartBox>

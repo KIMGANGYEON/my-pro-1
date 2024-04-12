@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import { createGlobalStyle } from "styled-components";
 import { RecoilRoot } from "recoil";
-import "./font.css";
+import "../src/Scss/style.scss";
 
 const GlobalStyle = createGlobalStyle`
  @import url("https://fonts.googleapis.com/css2?family=Caveat&family=Shadows+Into+Light&display=swap");
