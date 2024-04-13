@@ -215,19 +215,51 @@ function Project01() {
           <div className="section-4">
             <div className="slide-box">
               <div className="slide-box-1">
-                <div className="text">
+                <div className="title-text">
                   <h1>Look Book 1</h1>
                 </div>
                 <div className="img">
                   <img src={img14} alt="img14" />
+                  <div className="main-text">
+                    <h1>Look 1</h1>
+                    <p>simple black dress</p>
+                  </div>
                 </div>
               </div>
               <div className="slide-box-2">
-                <div className="text">
+                <div className="title-text">
                   <h1>Look Book 2</h1>
                 </div>
                 <div className="img">
                   <img src={img15} alt="img15" />
+                  <div className="main-text">
+                    <h1>Look 2</h1>
+                    <p>simple purple dress</p>
+                  </div>
+                </div>
+              </div>
+              <div className="slide-box-3">
+                <div className="title-text">
+                  <h1>Look Book 3</h1>
+                </div>
+                <div className="img">
+                  <img src={img16} alt="img16" />
+                  <div className="main-text">
+                    <h1>Look 3</h1>
+                    <p>simple white jacket</p>
+                  </div>
+                </div>
+              </div>
+              <div className="slide-box-4">
+                <div className="title-text">
+                  <h1>Look Book 4</h1>
+                </div>
+                <div className="img">
+                  <img src={img17} alt="img17" />
+                  <div className="main-text">
+                    <h1>Look 4</h1>
+                    <p>simple purple cardigan</p>
+                  </div>
                 </div>
               </div>
             </div>
