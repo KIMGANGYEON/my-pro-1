@@ -264,6 +264,27 @@ function Project01() {
               </div>
             </div>
           </div>
+          <div className="section-5">
+            <div className="text-box">
+              <h1>Womens →</h1>
+              <h1>Mens →</h1>
+              <h1>Bags →</h1>
+              <h1>Gifts →</h1>
+            </div>
+            <div className="option-box">
+              <div className="arrow-box">←</div>
+              <div className="text-box2">
+                <h1>Womens</h1>
+                <h5>d</h5>
+              </div>
+              <p className="footer-1">
+                <h1>PRADA</h1>
+              </p>
+
+              <p className="footer-2">2</p>
+              <p className="footer-3">3</p>
+            </div>
+          </div>
         </StartBox>
       )}
     </Wrapper>
