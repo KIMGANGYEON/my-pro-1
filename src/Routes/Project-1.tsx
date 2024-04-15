@@ -22,6 +22,8 @@ import img16 from "../IMG/project-1/img-16.jpeg";
 import img17 from "../IMG/project-1/img-17.jpeg";
 import img29 from "../IMG/project-1/img-29.jpeg";
 import img30 from "../IMG/project-1/img-30.jpeg";
+import di1 from "../IMG/project-1/di-1.jpeg";
+import di2 from "../IMG/project-1/di-2.jpeg";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -107,21 +109,6 @@ function Project01() {
   setInterval(() => {
     setClock(new Date().toLocaleTimeString());
   });
-
-  // const fixText = useRef(null);
-  // useEffect(() => {
-  //   const el = fixText.current;
-  //   gsap.to(el, {
-  //     // duration: 1,
-  //     scrollTrigger: {
-  //       trigger: el,
-  //       start: "top 60%",
-  //       pin: true,
-  //       scrub: 10,
-  //       markers: true,
-  //     },
-  //   });
-  // }, []);
 
   return (
     <Wrapper>
@@ -275,14 +262,77 @@ function Project01() {
               <div className="arrow-box">←</div>
               <div className="text-box2">
                 <h1>Womens</h1>
-                <h5>d</h5>
+                <div className="text-array">
+                  <h2>ready to wear</h2>
+                  <h2>bags</h2>
+                  <h2>shoes</h2>
+                  <h2>accessories</h2>
+                  <h2>
+                    lifestyle
+                    <br />
+                    accessories
+                  </h2>
+                  <h2>travel</h2>
+                </div>
               </div>
-              <p className="footer-1">
+              <div className="footer-1">
                 <h1>PRADA</h1>
-              </p>
-
-              <p className="footer-2">2</p>
-              <p className="footer-3">3</p>
+              </div>
+            </div>
+          </div>
+          <div className="section-6">
+            <div className="director-box ">
+              <div className="grid-box">
+                <div className="footer">
+                  <h1>prada</h1>
+                  <h1>prada 2024 fw WomenWear</h1>
+                </div>
+                <div className="main">
+                  <div className="text__box">
+                    <h1>our</h1>
+                    <h2>designer</h2>
+                  </div>
+                  <div className="img-box">
+                    <img src={di1} alt="" />
+                    <img src={di2} alt="" />
+                  </div>
+                  <div className="name">
+                    <h1>RAF SIMONS</h1>
+                    <h1>Miuccia Prada Bianchi</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="section-7">
+            <div className="video-box">
+              <div className="video-1">
+                <video autoPlay muted loop>
+                  <source src="/videos/prada-1.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div className="video-2">
+                <video autoPlay muted loop>
+                  <source src="/videos/prada-4.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </div>
+            <div className="footer">
+              <h1>ll</h1>
+              <h2>
+                A knowledge of history not only informs the contemporaneous, but
+                defines it – clothes are referent to different eras, other
+                times, synchronous echoes recontextualized. The past is an
+                instrument, a tool for learning, used here to try to invent
+                something new. Yet rather than an intellectual examination, this
+                collection is an emotional reaction, to ideals of beauty that
+                still feel resonant.
+              </h2>
+            </div>
+            <div className="video-3">
+              <video autoPlay muted loop>
+                <source src="/videos/prada-2.mp4" type="video/mp4" />
+              </video>
             </div>
           </div>
         </StartBox>
